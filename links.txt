@@ -1,0 +1,7 @@
+AT+CIPSTART=4,"TCP","54.86.132.254",80
+
+AT+CIPSEND=4,40
+
+GET /output/KJ1pL2jgjdfEOWp0XVWE.json
+
+
