@@ -22,7 +22,7 @@ void setup() {
   String mux = "AT+CIPMUX=1";
   myTAH.println(mux);
   delay(1000);
-  String conn = "AT+CWJAP=\"Anuj\'s iPhone\",\"panipuri\"";
+  String conn = "AT+CWJAP=\"Ashwini\",\"12345678\"";
   myTAH.println(conn);
   delay(1000);
   String ip = "AT+CIFSR";
